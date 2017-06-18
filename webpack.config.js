@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-  entry: './lib/js/Root.js',
+  entry: './lib/js/src/Root.js',
 
   output: {
     path: path.join(__dirname, 'app'),
