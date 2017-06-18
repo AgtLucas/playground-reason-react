@@ -1,0 +1,10 @@
+{
+  "name": "playground-reason-react",
+  "reason": { "react-jsx": 2 },
+  "bs-dependencies": ["reason-react", "bs-director"],
+  "sources": [
+    {
+      "dir": "src"
+    }
+  ]
+}
