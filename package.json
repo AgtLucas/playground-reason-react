@@ -4,7 +4,10 @@
   "description": "Playground for ReasonReact",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "bsb -make-world -w",
+    "web": "webpack-dev-server",
+    "build": "webpack -w",
+    "clean": "bsb -clean-world"
   },
   "repository": {
     "type": "git",
