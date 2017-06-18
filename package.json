@@ -17,10 +17,13 @@
   },
   "homepage": "https://github.com/AgtLucas/playground-reason-react#readme",
   "dependencies": {
+    "bs-director": "0.0.1",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "reason-react": "https://github.com/reasonml/reason-react.git"
   },
   "devDependencies": {
+    "bs-platform": "https://github.com/bloomberg/bucklescript.git",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
   }

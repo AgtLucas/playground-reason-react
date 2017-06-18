@@ -262,6 +262,16 @@ browserify-zlib@^0.1.4:
   dependencies:
     pako "~0.2.0"
 
+bs-director@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/bs-director/-/bs-director-0.0.1.tgz#2587e2c841c1d485f20236fb3283ca949191141d"
+  dependencies:
+    director "^1.2.8"
+
+"bs-platform@https://github.com/bloomberg/bucklescript.git":
+  version "1.8.0"
+  resolved "https://github.com/bloomberg/bucklescript.git#79b50e2f92e475a1b26b7fc73ebf38817adf84a1"
+
 buffer-xor@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/buffer-xor/-/buffer-xor-1.0.3.tgz#26e61ed1422fb70dd42e6e36729ed51d855fe8d9"
@@ -446,7 +456,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@^15.6.0:
+create-react-class@^15.0.0, create-react-class@^15.6.0:
   version "15.6.0"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.0.tgz#ab448497c26566e1e29413e883207d57cfe7bed4"
   dependencies:
@@ -485,13 +495,13 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
-debug@2.6.7:
+debug@2.6.7, debug@^2.2.0:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.7.tgz#92bad1f6d05bbb6bba22cca88bcd0ec894c2861e"
   dependencies:
     ms "2.0.0"
 
-debug@2.6.8, debug@^2.2.0, debug@^2.6.8:
+debug@2.6.8, debug@^2.6.8:
   version "2.6.8"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
@@ -545,6 +555,10 @@ diffie-hellman@^5.0.0:
     bn.js "^4.1.0"
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
+
+director@^1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/director/-/director-1.2.8.tgz#c6d9b4dd890e9aff5365183fe9cc8e73994cf2d5"
 
 domain-browser@^1.1.1:
   version "1.1.7"
@@ -1748,6 +1762,12 @@ readdirp@^2.0.0:
     minimatch "^3.0.2"
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
+
+"reason-react@https://github.com/reasonml/reason-react.git":
+  version "0.1.4"
+  resolved "https://github.com/reasonml/reason-react.git#95d99843a0d635119b5c2aebde5a71a05ccb82c1"
+  dependencies:
+    create-react-class "^15.0.0"
 
 regex-cache@^0.4.2:
   version "0.4.3"
